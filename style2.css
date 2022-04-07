@@ -73,3 +73,45 @@ main {
     display: flex;
     flex-direction: column;
 } */
+
+
+/* STYLING MOVIE CARD */
+.movieInfo {
+    background-color: rgb(255, 127, 127);
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.movieInfo .ALLINFO {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.movieImgContent {
+    margin: 20px;
+}
+
+.movieImgContent img{
+    max-width: 200px;
+}
+
+.movieInfoContentPrimary{
+    margin: 0 0 50px;
+}
+
+.movieInfoContentSecondary {
+    display: flex;
+}
+
+.movieInfoContentSecondary h4 {
+    margin-right:30px;
+}
+
+.movieDescription {
+    margin-top: 30px;
+}
+.movieDescription button {
+    margin-top: 20px;
+}

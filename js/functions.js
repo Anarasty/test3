@@ -14,22 +14,24 @@ function addMovieContent(movie) {
                 <img src="${movie.poster}" alt="1">
             </div>
 
-            <div class="movieInfoContentPrimary">
-                <h1>${movie.title}</h1>
-                <h3>${movie.year}</h3>
-            </div>
 
-            <div class="movieInfoContentSecondary">
-                <h4>${movie.imdbRating}</h4>
-                <h4>${movie.runtime}</h4>
-                <h4>${movie.genre}</h4>
-            </div>
+            <div class="ALLINFO"> 
+                <div class="movieInfoContentPrimary">
+                    <h1>${movie.title}</h1>
+                    <h3>${movie.year}</h3>
+                </div>
 
-            <div class="movieDescription">
-                <p>${movie.plot}</p>
-                <button class="fav-btn ${checkMovieInList(movie)}">Love</button>
-            </div>
+                <div class="movieInfoContentSecondary">
+                    <h4>&#9733;${movie.imdbRating}</h4>
+                    <h4>${movie.runtime}</h4>
+                    <h4>${movie.genre}</h4>
+                </div>
 
+                <div class="movieDescription">
+                    <p>${movie.plot}</p>
+                    <button class="fav-btn ${checkMovieInList(movie)}">Love</button>
+                </div>
+            </div>
         </section>
     `;
 }
