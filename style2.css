@@ -69,11 +69,21 @@ main {
     margin-top: 20px;
     background-color: aqua;
 }
-/* main .container {
+
+main .container{
     display: flex;
     flex-direction: column;
-} */
+    align-items: center;
+}
 
+.container .background {
+    width: 20%;
+}
+
+main .container .info {
+    font-size: 3rem;
+    margin: 20px 0;
+}
 
 /* STYLING MOVIE CARD */
 .movieInfo {
@@ -115,3 +125,23 @@ main {
 .movieDescription button {
     margin-top: 20px;
 }
+
+/* 
+.add-watchlist-btn {
+    background-image: url(../img/add-icon.png);
+}
+
+.add-watchlist-btn::after {
+    content: "Watchlist";
+} */
+
+/* .remove-watchlist-btn {
+    background-image: url(../img/remove-icon.png);
+}
+
+.remove-watchlist-btn::after {
+    content: "Remove";
+} */
+
+
+/* WHATCHLIST STYLING */
